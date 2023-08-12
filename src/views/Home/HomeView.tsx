@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './HomeView.css'
 import { Link } from 'react-router-dom'
 import illustration from '../../assets/illustration-home.jpg'
@@ -9,17 +8,6 @@ import { BiLogoJavascript } from 'react-icons/bi'
 
 
 const HomeView = () => {
-
-  const [dark, setDark] = useState(true)
-
-  useEffect(() => {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setDark(true)
-    } else {
-      setDark(false)
-    }
-  }, [])
-
   return (
     <div className='HomeView'>
 
@@ -27,7 +15,7 @@ const HomeView = () => {
         <div className='text-box'>
           <h1 className='header'>HELLO! I'm Malin</h1>
           <h2 className='subheader'>a <span className='span-text'>frontend developer</span></h2>
-          <Link to='/contact'><div className={dark ? 'circle-btn dark-mode' : 'circle-btn light-mode'}>
+          <Link to='/contact'><div className='circle-btn'>
             <p className='circle-text'>LET'S</p>
             <p className='circle-text'>TALK</p>
           </div></Link>

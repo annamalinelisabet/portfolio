@@ -18,7 +18,7 @@ const ResumeView = () => {
         <div className='illustration-box'>
           <img src={illustration} alt="" />
         </div>
-        <p className='text'>As a <span className='span-text'>frontend developer</span> my experience may not seem extensive on paper, but I can confidently assert that my skills and passion for web development are well-founded. Below, you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?</p>
+        <p className='text'>While my experience as a <span className='span-text'>frontend developer</span> might not appear extensive on paper, I can confidently assert that my skills in web development are well-founded.  Below, you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?</p>
       </div>
       <div className='wrapper'>
         <div className='box'>

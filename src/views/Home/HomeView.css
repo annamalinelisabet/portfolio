@@ -44,6 +44,7 @@
 .HomeView .circle-btn {
     margin-top: 1.5rem;
     height: 5rem;
+    background-color: #fff;
     width: 5rem;
     border-radius: 100%;
     display: flex;
@@ -53,14 +54,6 @@
     outline: 3px dashed #fff;
     outline-offset: 6px;
     cursor: pointer;
-}
-
-.HomeView .circle-btn.light-mode {
-    background-color: #fff;
-}
-
-.HomeView .circle-btn.dark-mode {
-    background-color: var(--secondary-blue);
 }
 
 .HomeView .circle-btn:hover {
@@ -77,7 +70,7 @@
 }
 
 .HomeView .img-box {
-    width: clamp(250px, 60vw, 500px);
+    width: clamp(250px, 55vw, 480px);
     margin: auto;
 }
 
