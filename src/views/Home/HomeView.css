@@ -45,7 +45,6 @@
     margin-top: 1.5rem;
     height: 5rem;
     width: 5rem;
-    background-color: #fff;
     border-radius: 100%;
     display: flex;
     flex-direction: column;
@@ -54,6 +53,10 @@
     outline: 3px dashed #fff;
     outline-offset: 6px;
     cursor: pointer;
+}
+
+.HomeView .circle-btn.light-mode {
+    background-color: #fff;
 }
 
 .HomeView .circle-btn.dark-mode {

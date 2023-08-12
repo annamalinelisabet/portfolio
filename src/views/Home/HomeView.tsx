@@ -10,7 +10,7 @@ import { BiLogoJavascript } from 'react-icons/bi'
 
 const HomeView = () => {
 
-  const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(true)
 
   useEffect(() => {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -27,7 +27,7 @@ const HomeView = () => {
         <div className='text-box'>
           <h1 className='header'>HELLO! I'm Malin</h1>
           <h2 className='subheader'>a <span className='span-text'>frontend developer</span></h2>
-          <Link to='/contact'><div className={dark ? 'circle-btn dark-mode' : 'circle-btn'}>
+          <Link to='/contact'><div className={dark ? 'circle-btn dark-mode' : 'circle-btn light-mode'}>
             <p className='circle-text'>LET'S</p>
             <p className='circle-text'>TALK</p>
           </div></Link>
