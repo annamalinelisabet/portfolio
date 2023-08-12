@@ -51,7 +51,7 @@
     position: absolute;
     top: 2.8rem;
     right: .9rem;
-    color: white;
+    color: #fff;
 }
 
 /* ------- FORM ------ */
@@ -87,7 +87,7 @@
 .ContactView .btn-send {
     width: 100%;
     background-color: var(--primary-blue);
-    color: white;
+    color: #fff;
 }
 
 @media (min-width: 700px) {

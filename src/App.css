@@ -48,10 +48,3 @@ a {
   padding: .7rem 2rem;
   font-weight: bold;
 }
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: red;
-    color: #e0e0e0;
-  }
-}

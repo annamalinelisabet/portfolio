@@ -24,12 +24,12 @@ const ResumeView = () => {
         <div className='box'>
           <p className='subtitle'>FRONTEND DEVELOPER</p>
           <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><BiChevronsRight /></a>
-          <p className='desc'>YH-utbildning som har gett mig praktisk erfarenhet och kompetens inom JavaScript, HTML och CSS. Men också avancerade programmeringsfärdigheter med huvudfokus på React, samt god förståelse för design, användarvänlighet och backendutveckling. Men också avancerade programmeringsfärdigheter med huvudfokus på React, samt god förståelse för design, användarvänlighet och backendutveckling.</p>
+          <p className='desc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat repudiandae corrupti officiis maiores molestiae, beatae quia, nihil nostrum neque in cum cupiditate dolor nam aperiam reprehenderit nisi? Quos consectetur voluptas odit quidem! Eaque obcaecati accusantium necessitatibus similique mollitia est hic asperiores odit, exercitationem facilis. Deleniti ab suscipit eaque numquam quam?.</p>
         </div>
         <div className='box'>
           <p className='subtitle'>SOFTWARE ENGINEER INTERN</p>
           <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><BiChevronsRight /></a>
-          <p className='desc'>YH-utbildning som har gett mig praktisk erfarenhet och kompetens inom JavaScript, HTML och CSS. Men också avancerade programmeringsfärdigheter med huvudfokus på React, samt god förståelse för design, användarvänlighet och backendutveckling.</p>
+          <p className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laudantium assumenda pariatur magnam, nulla minima adipisci iure. Qui corrupti minima tempora earum aliquid nostrum libero.</p>
         </div>
       </div>
       <p className='text end'>If you're curious about what else I've been up to, feel free to <Link to='/contact' className='link'>contact me</Link>. I'd be glad to share my complete CV with you. As a teaser, I can reveal that it covers a mix of things like dance, logistics and tourism <BsFillEmojiSmileFill /></p>

@@ -135,12 +135,12 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: white;
+    background-color: #fff;
     transform:translateX(4%) translateY(2%) rotate(2deg);
 }
 
 .HomeView .about-text-box {
-    color: white;
+    color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -152,14 +152,14 @@
 }
 
 .HomeView .about-text {
-    color: white;
+    color: #fff;
     margin-bottom: 1rem;
     line-height: 1.5rem;
 }
 
 .HomeView .about-btn {
     border: 3px solid var(--primary-blue);
-    color: white;
+    color: #fff;
     width: 100%;
     transition: .5s ease;
 }
