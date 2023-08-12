@@ -56,6 +56,10 @@
     cursor: pointer;
 }
 
+.HomeView .circle-btn.dark-mode {
+    background-color: var(--secondary-blue);
+}
+
 .HomeView .circle-btn:hover {
     outline: 3px solid #fff;
 }
