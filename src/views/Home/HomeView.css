@@ -1,0 +1,219 @@
+
+/* --------- HERO SECTION ----------- */
+
+.HomeView .hero-section {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.HomeView .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.HomeView .header {
+    font-family: var(--header-font);
+    font-size: clamp(1.5rem, 5vw, 3rem); 
+}
+
+.HomeView .subheader {
+    font-size: clamp(1.2rem, 3vw, 2rem); 
+}
+
+.HomeView .span-text {
+    position: relative;
+    color: var(--background-clr);
+}
+
+.HomeView .span-text::before {
+    content: '';
+    position: absolute;
+    top: 8%;
+    left: -1%;
+    width: 103%;
+    height: 90%;
+    background-color: var(--orange);
+    z-index: -1;
+}
+
+.HomeView .circle-btn {
+    margin-top: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 3px dashed white;
+    outline-offset: 6px;
+    cursor: pointer;
+}
+
+.HomeView .circle-btn:hover {
+    outline: 3px solid white;
+}
+
+.HomeView .circle-btn:active {
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.HomeView .circle-text {
+    color: var(--background-clr);
+    font-weight: bold;
+}
+
+.HomeView .img-box {
+    width: clamp(250px, 60vw, 500px);
+    margin: auto;
+}
+
+.HomeView img {
+    width: 100%;
+}
+
+
+/* ---------- SKILLS SECTION --------- */
+.HomeView .skills-section {
+    background-color: white;
+    padding: 4rem 0 2rem 0;
+}
+
+.HomeView .skills-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeView .skill {
+    color: var(--secondary-blue);
+    font-size: 5rem;
+}
+
+.HomeView .skill.lg {
+    display: none;
+}
+
+.HomeView .skills-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.HomeView p {
+    color: var(--secondary-blue);
+}
+
+.HomeView .arrow {
+    color: var(--secondary-blue);
+    font-size: 1.5rem;
+    transition: 250ms ease-in-out;
+}
+
+.skills-text-wrapper:hover .arrow {
+    transform: translateX(.5rem);
+}
+
+/* -------- ABOUT SECTION --------- */
+.HomeView .about-section {
+    padding: 3rem 1rem;
+}
+
+.HomeView .about-img-box {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.HomeView .about-img-bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: white;
+    transform:translateX(4%) translateY(2%) rotate(2deg);
+}
+
+.HomeView .about-text-box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeView .about-title {
+    font-family: var(--header-font);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.HomeView .about-text {
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.HomeView .about-btn {
+    border: 3px solid var(--primary-blue);
+    color: white;
+    width: 100%;
+    transition: .5s ease;
+}
+
+.HomeView .about-btn:hover {
+    background-color: var(--primary-blue);
+    color: var(--background-clr);
+
+}
+
+.HomeView .about-btn:active {
+    opacity: 70%;
+}
+
+@media (min-width: 660px) {
+    .HomeView .hero-section {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .HomeView .text-box {
+        align-items: flex-start;
+    }
+    
+    .HomeView .circle-btn {
+        margin: 1.5rem 0 0 2rem;
+    }
+    
+    .HomeView .skill.lg {
+        display: inline;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    
+    .HomeView .about-section {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        padding: 3rem 0rem;
+    }
+    
+    .HomeView .about-img-box {
+        width: 800px;
+        margin-bottom: 0;
+    }
+    
+    .HomeView .about-text-box {
+        flex-grow: 1;
+    }
+
+    .HomeView .about-btn {
+        width: 50%;
+    }
+}

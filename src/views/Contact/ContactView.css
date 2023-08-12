@@ -1,0 +1,105 @@
+.ContactView {
+    padding-block: 2rem;
+}
+
+.ContactView h1 {
+    font-family: var(--header-font);
+    font-size: 2rem;
+}
+
+.ContactView .wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.ContactView .illustration-box {
+    width: min(30%, 200px);
+}
+
+.ContactView .illustration-box img {
+    width: 100%;
+}
+
+.ContactView h4 {
+    font-family: var(--header-font);
+    font-weight: 400;
+    width: 70%;
+}
+
+.ContactView .text {
+    margin-block: 2rem;
+    font-size: .8rem;
+}
+
+.ContactView .email {
+    text-decoration: underline;
+}
+
+.ContactView .linkedin {
+    position: relative;
+}
+
+.ContactView .arrow {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.ContactView .li-icon {
+    font-size: 2rem;
+    position: absolute;
+    top: 2.8rem;
+    right: .9rem;
+    color: white;
+}
+
+/* ------- FORM ------ */
+.ContactView form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: min(100%, 625px);
+    padding-block: 4rem;
+}
+.ContactView .input-control {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.ContactView label {
+    font-family: var(--header-font);
+    font-size: .9rem;
+}
+
+.ContactView input {
+    padding: .5rem;
+}
+
+.ContactView .message {
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    height: 200px;
+    padding: .5rem;
+}
+
+.ContactView .btn-send {
+    width: 100%;
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+@media (min-width: 700px) {
+    .ContactView h1 {
+        font-size: 4rem;
+    }
+    
+    .ContactView h4 {
+        font-size: 2rem;
+    }
+
+    .ContactView .btn-send {
+        width: 50%;
+    }
+}

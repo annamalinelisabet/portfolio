@@ -1,0 +1,90 @@
+.ResumeView {
+    padding-block: 2rem;
+}
+
+.ResumeView .header {
+    font-family: var(--header-font);
+    text-align: center;
+}
+
+.ResumeView .top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ResumeView .illustration-box {
+    width: min(30%, 200px);
+}
+
+.ResumeView .illustration-box img {
+    width: 100%;
+}
+
+.ResumeView .text {
+    line-height: 1.5rem;
+}
+
+.ResumeView .span-text {
+    position: relative;
+    color: var(--background-clr);
+    font-weight: bold;
+}
+
+.ResumeView .span-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2%;
+    width: 104%;
+    height: 100%;
+    background-color: var(--orange);
+    z-index: -1;
+}
+
+.ResumeView .wrapper {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ResumeView .box {
+    border: 2px dashed var(--primary-blue);
+    padding: 1rem;
+    background-color: var(--secondary-blue);
+}
+
+.ResumeView .subtitle {
+    font-size: .8rem;
+}
+
+.ResumeView .title {
+    color: var(--orange);
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.ResumeView .desc {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    margin-top: .5rem;
+}
+
+.ResumeView .link {
+    text-decoration: underline;
+}
+
+.ResumeView .end {
+    font-size: .8rem;
+}
+
+@media (min-width: 660px) {
+    .ResumeView .wrapper {
+        flex-direction: row;
+    }
+}
