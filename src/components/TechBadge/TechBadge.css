@@ -1,0 +1,12 @@
+.TechBadge {
+    padding: .4rem .8rem;
+    background-color: var(--background-clr);
+    border-radius: 15px;
+}
+
+.TechBadge .name {
+    font-size: .7rem;
+    font-weight: '';
+    color: var(--orange);
+    user-select: none;
+}

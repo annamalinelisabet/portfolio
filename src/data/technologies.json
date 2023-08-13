@@ -1,0 +1,88 @@
+[
+    {
+        "name": "HTML",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "CSS",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "JavaScript",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "TypeScript",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "React Native",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "React Native Web",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "Expo",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "Apollo GraphQL",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "React",
+        "ec": true,
+        "gastrogate": true
+    },
+    {
+        "name": "Sass",
+        "ec": false,
+        "gastrogate": true
+    },
+    {
+        "name": "Redux",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "Bootstrap",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "Vue.js",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "Node.js",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "Express.js",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "MongoDB",
+        "ec": true,
+        "gastrogate": false
+    },
+    {
+        "name": "C#",
+        "ec": true,
+        "gastrogate": false
+    }
+    
+]

@@ -23,6 +23,7 @@
 
 .HomeView .subheader {
     font-size: clamp(1.2rem, 3vw, 2rem); 
+    margin-bottom: 1.5rem;
 }
 
 .HomeView .span-text {
@@ -42,7 +43,6 @@
 }
 
 .HomeView .circle-btn {
-    margin-top: 1.5rem;
     height: 5rem;
     background-color: #fff;
     width: 5rem;
@@ -185,7 +185,7 @@
     }
     
     .HomeView .circle-btn {
-        margin: 1.5rem 0 0 2rem;
+        margin-left: 2rem;
     }
     
     .HomeView .skill.lg {
@@ -196,7 +196,6 @@
 
 
 @media (min-width: 768px) {
-    
     .HomeView .about-section {
         display: flex;
         align-items: center;

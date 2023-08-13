@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 import './PortfolioView.css'
+// import video from '../../assets/quiz-app.mp4'
+// import screenshot from '../../assets/app-screenshot.jpg'
 
 const PortfolioView = () => {
 
@@ -9,6 +11,7 @@ const PortfolioView = () => {
 
   return (
     <div className='PortfolioView container'>
+      {/* <video src={video} width='300' height='500' poster={screenshot} autoPlay>Your browser can't play the video</video> */}
     </div>
   )
 }
