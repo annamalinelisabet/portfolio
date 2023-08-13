@@ -15,10 +15,10 @@ const HomeView = () => {
         <div className='text-box'>
           <h1 className='header'>WELCOME! I'm Malin</h1>
           <h2 className='subheader'>a <span className='span-text'>frontend developer</span></h2>
-          <Link to='/contact'>
+          <Link to='/portfolio'>
             <div className='circle-btn'>
-              <p className='circle-text'>LET'S</p>
-              <p className='circle-text'>TALK</p>
+              <p className='circle-text'>SEE MY</p>
+              <p className='circle-text'>WORK</p>
             </div>
           </Link>
         </div>
@@ -35,9 +35,9 @@ const HomeView = () => {
           <FaReact className='skill'/>
           <FaVuejs className='skill'/>
         </div>
-        <Link to='/portfolio'>
+        <Link to='/resume'>
           <div className='skills-text-wrapper'>
-            <p className='skills-text'>Take a closer look at my skills</p>
+            <p className='skills-text'>Explore my tech stack</p>
             <BsArrowRight className='arrow'/>
           </div>
         </Link>
@@ -49,9 +49,9 @@ const HomeView = () => {
           <div className='about-img-bg'></div>
         </div>
         <div className='about-text-box'>
-          <h2 className='about-title'>ABOUT</h2>
+          <h2 className='about-title'>THAT'S ME</h2>
           <p className='about-text'>Initially captivated by a fascination for design, I now find that the combination of design, coding, and problem-solving is what makes frontend development so incredibly enjoyable for me. I have a genuine passion for creating modern, user-friendly interfaces that deliver exceptional user experiences.</p>
-          <Link to='/resume'><button className='btn about-btn'>KNOW MORE</button></Link>
+          <Link to='/contact'><button className='btn about-btn'>LET'S TALK</button></Link>
         </div>
       </div>
 
