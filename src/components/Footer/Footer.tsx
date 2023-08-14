@@ -16,8 +16,8 @@ const Footer = () => {
         </div>
         <div className='footer-icons'>
           <AiOutlineMail className='icon' />
-          <a href='https://github.com/annamalinelisabet' target='_blank' rel='noopener noreferrer'><AiOutlineGithub className='icon' /></a>
-          <a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer'><AiFillLinkedin className='icon' /></a>
+          <a href='https://github.com/annamalinelisabet' target='_blank' rel='noopener noreferrer' aria-label='Link to GitHub profile'><AiOutlineGithub className='icon' /></a>
+          <a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer' aria-label='Link to LinkedIn profile'><AiFillLinkedin className='icon' /></a>
         </div>
       </div>
     </div>
