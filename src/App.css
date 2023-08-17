@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@
   --orange: #FFA25F;
   --tree-clr: #78C451;
   --background-clr: #1D223F;
-  --header-font: 'Roboto Mono', monospace;
+  --header-font: 'Poppins', sans-serif;
 }
 
 body {
