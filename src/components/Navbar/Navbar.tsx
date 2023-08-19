@@ -2,7 +2,7 @@ import './Navbar.css'
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { BiMenu } from 'react-icons/bi'
-import { FaTree } from 'react-icons/fa'
+import { BsEyeglasses } from 'react-icons/bs'
 import MobileMenu from '../MobileMenu/MobileMenu'
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
       <div className='container'>
-        <Link to='/'><FaTree className='logo'/></Link>
+        <Link to='/'><BsEyeglasses className='logo'/></Link>
         <BiMenu className='bars' onClick={() => setShowMobileMenu(true)} />
         <ul className='nav-links'>
           <li><NavLink className='nav-link' to='/'>home</NavLink></li>

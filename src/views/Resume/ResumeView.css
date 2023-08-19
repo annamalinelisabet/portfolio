@@ -4,13 +4,12 @@
 
 .ResumeView .header {
     font-family: var(--header-font);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .ResumeView .top-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -24,23 +23,6 @@
 
 .ResumeView .text {
     line-height: 1.4rem;
-}
-
-.ResumeView .span-text {
-    position: relative;
-    color: var(--background-clr);
-    font-weight: bold;
-}
-
-.ResumeView .span-text::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -1%;
-    width: 102%;
-    height: 100%;
-    background-color: var(--orange);
-    z-index: -1;
 }
 
 .ResumeView .wrapper {
