@@ -71,7 +71,7 @@
 }
 
 .HomeView .img-box {
-    width: clamp(230px, 50vw, 480px);
+    width: clamp(250px, 55vw, 480px);
     margin: auto;
 }
 
@@ -207,7 +207,7 @@
     }
     
     .HomeView .about-img-box {
-        width: 800px;
+        width: 750px;
         margin-bottom: 0;
     }
     
