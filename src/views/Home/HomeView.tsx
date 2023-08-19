@@ -13,7 +13,7 @@ const HomeView = () => {
     <div className='HomeView'>
 
       <div className='hero-section container'>
-        <div className='text-box animate__animated animate__fadeInLeft'>
+        <div className='text-box animate__animated animate__fadeInLeft animate__slow'>
           <h1 className='header'>HEY THERE, I'm Malin</h1>
           <h2 className='subheader'>a <span className='span-text'>frontend developer</span></h2>
           <Link to='/portfolio'>
@@ -23,12 +23,12 @@ const HomeView = () => {
             </div>
           </Link>
         </div>
-        <div className='img-box animate__animated animate__fadeInUp'>
+        <div className='img-box animate__animated animate__fadeInUp animate__slow'>
           <img src={illustration} alt="Illustration" />
         </div>
       </div>
 
-      <div className='skills-section' data-aos='fade-up' data-aos-duration='1000'>
+      <div className='skills-section' data-aos='fade-up' data-aos-duration='1500'>
         <div className='skills-box container'>
           <FaHtml5 className='skill lg'/>
           <FaCss3Alt className='skill lg'/>
@@ -44,7 +44,7 @@ const HomeView = () => {
         </Link>
       </div>
 
-      <div className='about-section container' data-aos='fade-up' data-aos-duration='1000'>
+      <div className='about-section container' data-aos='fade-up' data-aos-duration='1500'>
         <div className='about-img-box'>
           <img src={photo} alt='Photo of me' />
           <div className='about-img-bg'></div>
