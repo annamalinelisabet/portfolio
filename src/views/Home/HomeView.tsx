@@ -13,11 +13,11 @@ const HomeView = () => {
     <div className='HomeView'>
 
       <div className='hero-section container'>
-        <div className='text-box animate__animated animate__fadeInLeft animate__slow'>
-          <h1 className='header'>HEY THERE, I'm Malin</h1>
-          <h2 className='subheader'>a <span className='span-text'>frontend developer</span></h2>
+        <div className='text-box'>
+          <h1 className='header animate__animated animate__fadeInLeft animate__slow'>HEY THERE, I'm Malin</h1>
+          <h2 className='subheader animate__animated animate__fadeInLeft animate__slow'>a <span className='span-text'>frontend developer</span></h2>
           <Link to='/portfolio'>
-            <div className='circle-btn'>
+            <div className='circle-btn animate__animated animate__fadeInRight animate__slow'>
               <p className='circle-text'>MY</p>
               <p className='circle-text'>WORK</p>
             </div>
