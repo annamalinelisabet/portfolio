@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './ResumeView.css'
+import 'animate.css'
 import { Link } from 'react-router-dom'
 import { HiMiniArrowUpRight } from 'react-icons/hi2'
 import illustration from '../../assets/illustration-home.jpg'
@@ -24,12 +25,12 @@ useEffect(() => {
     <div className='ResumeView container'>
       <div className='top-wrapper'>
         <h1 className='header'>WORK & EDUCATION</h1>
-        <div className='illustration-box'>
-          <img src={illustration} alt="" />
+        <div className='illustration-box animate__animated animate__fadeIn'>
+          <img src={illustration} alt='Illustration of me and a computer' />
         </div>
-        <p className='text'>While my experience as a <span className='span-text'>frontend developer</span> might not appear extensive on paper, I can confidently assert that my skills are well-founded.  Below, you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?</p>
+        <p className='text animate__animated animate__fadeIn'>While my experience as a <span className='span-text'>frontend developer</span> might not appear extensive on paper, I can confidently assert that my skills are well-founded.  Below, you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?</p>
       </div>
-      <div className='wrapper'>
+      <div className='wrapper animate__animated animate__fadeInUp animate__slower'>
         <div className='box'>
           <div>
             <p className='subtitle'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
