@@ -6,6 +6,7 @@ import { HiMiniArrowUpRight } from 'react-icons/hi2'
 import illustration from '../../assets/illustration-home.jpg'
 import technologies from '../../data/technologies.json'
 import TechBadge from '../../components/TechBadge/TechBadge'
+import TopSection from '../../components/TopSection/TopSection'
 
 const ResumeView = () => {
 
@@ -23,13 +24,7 @@ useEffect(() => {
 
   return (
     <div className='ResumeView container'>
-      <div className='top-wrapper'>
-        <h1 className='header'>WORK & EDUCATION</h1>
-        <div className='illustration-box animate__animated animate__fadeIn'>
-          <img src={illustration} alt='Illustration of me and a computer' />
-        </div>
-        <p className='text animate__animated animate__fadeIn'>Below you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?</p>
-      </div>
+      <TopSection header='work & education' src={illustration} alt='Illustration of me infront of a computer' text='Below you will find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?'/>
       <div className='wrapper animate__animated animate__fadeInUp animate__slow'>
         <div className='box'>
           <div>

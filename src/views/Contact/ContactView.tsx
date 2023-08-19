@@ -12,7 +12,7 @@ const ContactView = () => {
   }, [])
 
   return (
-    <div className='ContactView container animate__animated animate__fadeIn'>
+    <div className='ContactView container animate__animated animate__fadeIn animate__slow'>
       <h1>SAY HI</h1>
       <div className='wrapper'>
         <div className='illustration-box'>

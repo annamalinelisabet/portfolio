@@ -2,29 +2,6 @@
     padding-block: 2rem;
 }
 
-.ResumeView .header {
-    font-family: var(--header-font);
-    /* text-align: center; */
-}
-
-.ResumeView .top-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.ResumeView .illustration-box {
-    width: min(30%, 200px);
-}
-
-.ResumeView .illustration-box img {
-    width: 100%;
-}
-
-.ResumeView .text {
-    line-height: 1.4rem;
-}
-
 .ResumeView .wrapper {
     padding-block: 2rem;
     display: flex;
