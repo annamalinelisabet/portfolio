@@ -10,7 +10,7 @@ interface TopSectionProps {
 
 const TopSection: React.FC<TopSectionProps> = ({ header, src, alt, text }) => {
   return (
-    <div className='TopSection'>
+    <div className='TopSection animate__animated animate__fadeIn animate__slow'>
         <h1 className='header'>{header}</h1>
         <div className='illustration-box'>
             <img src={src} alt={alt} />

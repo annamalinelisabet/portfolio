@@ -28,20 +28,22 @@ const HomeView = () => {
         </div>
       </div>
 
-      <div className='skills-section' data-aos='fade-up' data-aos-duration='1500'>
-        <div className='skills-box container'>
-          <FaHtml5 className='skill lg'/>
-          <FaCss3Alt className='skill lg'/>
-          <BiLogoJavascript className='skill'/>
-          <FaReact className='skill'/>
-          <FaVuejs className='skill'/>
-        </div>
-        <Link to='/resume'>
-          <div className='skills-text-wrapper'>
-            <p className='skills-text'>Explore my tech stack</p>
-            <BsArrowRight className='arrow'/>
+      <div className='skills-section'>
+        <div data-aos='fade-up' data-aos-duration='1500'>
+          <div className='skills-box container'>
+            <FaHtml5 className='skill lg'/>
+            <FaCss3Alt className='skill lg'/>
+            <BiLogoJavascript className='skill'/>
+            <FaReact className='skill'/>
+            <FaVuejs className='skill'/>
           </div>
-        </Link>
+          <Link to='/resume'>
+            <div className='skills-text-wrapper'>
+              <p className='skills-text'>Explore my tech stack</p>
+              <BsArrowRight className='arrow'/>
+            </div>
+          </Link>
+        </div>
       </div>
 
       <div className='about-section container' data-aos='fade-up' data-aos-duration='1500'>
