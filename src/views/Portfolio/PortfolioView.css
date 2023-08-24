@@ -1,3 +1,11 @@
 .PortfolioView {
     padding-block: 2rem;
 }
+
+.PortfolioView .wrapper {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+

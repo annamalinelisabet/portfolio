@@ -3,6 +3,8 @@ import HomeView from './Home/HomeView'
 import ContactView from './Contact/ContactView'
 import ResumeView from './Resume/ResumeView'
 import PortfolioView from './Portfolio/PortfolioView'
+import QuizAppView from './QuizAppProject/QuizAppView'
+import PortfolioProjectView from './PortfolioProject/PortfolioProjectView'
 
 const Views = () => {
   return (
@@ -12,6 +14,8 @@ const Views = () => {
             <Route path='/contact' element={ <ContactView /> } />
             <Route path='/resume' element={ <ResumeView /> } />
             <Route path='/portfolio' element={ <PortfolioView /> } />
+            <Route path='/portfolio/1' element={ <QuizAppView /> } />
+            <Route path='/portfolio/2' element={ <PortfolioProjectView /> } />
         </Routes>
     </div>
   )
