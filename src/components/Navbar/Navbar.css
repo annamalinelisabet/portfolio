@@ -17,6 +17,7 @@
 .Navbar .logo {
     font-size: 2.5rem;
     color: #BDAB2F;
+    user-select: none;
 }
 
 .Navbar .nav-links {

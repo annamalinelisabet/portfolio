@@ -44,16 +44,17 @@
 }
 
 .HomeView .circle-btn {
+    user-select: none;
     height: 5rem;
     background-color: #fff;
     width: 5rem;
-    border-radius: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     outline: 3px dashed #fff;
     outline-offset: 6px;
+    border-radius: 50%;
     cursor: pointer;
 }
 
