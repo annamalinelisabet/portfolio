@@ -2,7 +2,7 @@
     position: fixed;
     inset: 0;
     z-index: 1;
-    height: 110vh;
+    height: 100vh;
     background-color: var(--background-clr);
 }
 
@@ -26,7 +26,7 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     gap: 3rem;
 }
 

@@ -1,5 +1,5 @@
 import './Navbar.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { BiMenu } from 'react-icons/bi'
 import { BsEyeglasses } from 'react-icons/bs'
@@ -8,6 +8,12 @@ import MobileMenu from '../MobileMenu/MobileMenu'
 const Navbar = () => {
 
   const [showMobileMenu, setShowMobileMenu] = useState(false)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.document) {
+      document.body.style.overflow = showMobileMenu ? 'hidden' : 'unset';
+    }
+  }, [showMobileMenu])
 
   return (
     <div className='Navbar'>
