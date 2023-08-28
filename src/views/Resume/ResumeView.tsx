@@ -24,7 +24,7 @@ useEffect(() => {
 
   return (
     <div className='ResumeView container'>
-      <TopSection header='work & education' src={illustration} alt='Illustration of me infront of a computer' text='Below you will find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?'/>
+      <TopSection header='work & education' src={illustration} alt='Illustration of me infront of a computer' text={`Here you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?`}/>
       <div className='wrapper animate__animated animate__fadeInUp animate__slow'>
         <div className='box'>
           <div>

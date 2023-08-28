@@ -44,7 +44,6 @@
 }
 
 .HomeView .circle-btn {
-    user-select: none;
     height: 5rem;
     background-color: #fff;
     width: 5rem;

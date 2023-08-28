@@ -21,7 +21,7 @@ const ContactView = () => {
         <h4>and let's work together</h4>
       </div>
       
-      <p className='text'>Don't hesitate to get in touch with me – I've made it incredibly simple! Just drop a message via the contact form provided below. But if that's not your style, feel free to shoot me an email at <span className='email'>annamalinelisabet@gmail.com</span> or connect with me on <span className='linkedin'>LinkedIn.<a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer'><AiFillLinkedin className='li-icon'/></a><HiArrowLongDown className='arrow'/></span></p>
+      <p className='text'>Don't hesitate to get in touch with me – I've made it incredibly simple! Just drop a message via the contact form provided below. But if that's not your style, feel free to shoot me an email at <a href='mailto:annamalinelisabet@gmail.com' className='email'>annamalinelisabet@gmail.com</a> or connect with me on <span className='linkedin'>LinkedIn.<a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer'><AiFillLinkedin className='li-icon'/></a><HiArrowLongDown className='arrow'/></span></p>
 
       <form>
         <div className='input-control'>
