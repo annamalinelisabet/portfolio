@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './ProjectCard.css'
+import { BsArrowRight } from 'react-icons/bs'
 
 interface ProjectCardProps {
     title: string;
@@ -12,7 +13,10 @@ interface ProjectCardProps {
     return (
       <Link to={'/portfolio/' + id}>
         <div className='ProjectCard'>
-          <h2 className='title'>{title}</h2>
+          <div className='title-arrow'>
+            <BsArrowRight className='arrow'/>
+            <h2 className='title'>{title}</h2>
+          </div>
           <div className='text-box'>
             { code ? <p className='text'>code</p> : null }
             { design ? <p className='text'>&nbsp; - &nbsp;design</p> : null }

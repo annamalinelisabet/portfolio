@@ -118,7 +118,7 @@
     transition: 250ms ease-in-out;
 }
 
-.skills-text-wrapper:hover .arrow {
+.HomeView .skills-text-wrapper:hover .arrow {
     transform: translateX(.5rem);
 }
 

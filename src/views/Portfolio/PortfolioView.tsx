@@ -24,6 +24,7 @@ const PortfolioView = () => {
       <div className='wrapper animate__animated animate__fadeInUp animate__slow'>
         { projects.map(project => <ProjectCard key={project.id} title={project.title} code={project.code} design={project.design} id={project.id}/> ) }
       </div>
+      <p className='end'><span className='upcoming'>Upcoming project</span>&nbsp; - &nbsp;A website for my sister's arts and crafts. She's the one who created the cute illustrations you see on this site.</p>
     </div>
   )
 }

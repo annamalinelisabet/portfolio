@@ -3,9 +3,21 @@
 }
 
 .PortfolioView .wrapper {
-    padding-block: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    border-bottom: 2px solid #fff;
+    max-width: 600px;
+    margin-block: 4rem;
+}
+
+.PortfolioView .end {
+    font-size: .9rem;
+}
+
+.PortfolioView .upcoming {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    /* border-bottom: 2px solid var(--orange); */
+    color: var(--orange);
 }
 
