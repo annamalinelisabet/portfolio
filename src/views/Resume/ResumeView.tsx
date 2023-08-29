@@ -30,7 +30,7 @@ useEffect(() => {
           <div>
             <p className='subtitle'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
             <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><HiMiniArrowUpRight /></a>
-            <p className='desc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat repudiandae corrupti officiis maiores molestiae, beatae quia, nihil nostrum neque in cum cupiditate dolor nam aperiam reprehenderit nisi? Quos consectetur voluptas odit quidem! Eaque obcaecati accusantium necessitatibus similique mollitia est hic asperiores odit, exercitationem facilis. Deleniti ab suscipit eaque numquam quam?.</p>
+            <p className='desc'>From day one of my education, I've been hands-on, coding everything from Vue.js to-do lists to Node.js REST APIs. Collaborative group projects have given me a solid foundation in both front- and backend development, along with essential skills like agile methodologies and UX/UI design. My greatest passion, however, lies in React, and this education has thoroughly prepared me for a promising career as a frontend developer.</p>
           </div>
           <div className='badges'>
             { school.map(item => <TechBadge key={item.name} name={item.name} />) }
@@ -40,7 +40,7 @@ useEffect(() => {
           <div>
             <p className='subtitle'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
             <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><HiMiniArrowUpRight /></a>
-            <p className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laudantium assumenda pariatur magnam, nulla minima adipisci iure. Qui corrupti minima tempora earum aliquid nostrum libero.</p>
+            <p className='desc'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field. I seamlessly integrated with the team and was able to contribute successfully to various projects.</p>
           </div>
           <div className='badges'>
             { gastrogate.map(item => <TechBadge key={item.name} name={item.name} />) }

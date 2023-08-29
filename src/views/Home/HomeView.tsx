@@ -38,7 +38,7 @@ const HomeView = () => {
         </div>
         <Link to='/resume'>
           <div className='skills-text-wrapper' data-aos='fade-up' data-aos-duration='1500'>
-            <p className='skills-text'>Explore my tech stack</p>
+            <p className='skills-text'>Explore my tech experiences</p>
             <BsArrowRight className='arrow'/>
           </div>
         </Link>

@@ -2,7 +2,9 @@ import './PortfolioProjectView.css'
 
 const PortfolioProjectView = () => {
   return (
-    <div className='PortfolioProject container'>PortfolioProjectView</div>
+    <div className='PortfolioProject container'>
+      
+    </div>
   )
 }
 
