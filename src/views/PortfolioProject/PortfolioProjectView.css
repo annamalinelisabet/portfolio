@@ -4,4 +4,5 @@
 
 .PortfolioProject .header {
     font-family: var(--header-font);
+    font-size: clamp(2rem, 12vw, 8rem); 
 }
