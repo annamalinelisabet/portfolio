@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import './ContactView.css'
 import 'animate.css'
-import illustration from '../../assets/illustration-home.jpg'
+import illustration from '../../assets/illustration-wave.jpg'
 import { HiArrowLongDown } from 'react-icons/hi2'
 import { AiFillLinkedin } from 'react-icons/ai'
 

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './PortfolioView.css'
 import 'animate.css'
 import TopSection from '../../components/TopSection/TopSection'
-import illustration from '../../assets/illustration-home.jpg'
+import illustration from '../../assets/illustration-pen.jpg'
 import data from '../../data/projects.json'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 

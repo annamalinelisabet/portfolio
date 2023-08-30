@@ -1,0 +1,7 @@
+.QuizAppView {
+    padding-block: 2rem;
+}
+
+.QuizAppView .header {
+    font-family: var(--header-font);
+}

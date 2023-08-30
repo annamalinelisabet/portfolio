@@ -5,6 +5,7 @@ import './QuizAppView.css'
 const QuizAppView = () => {
   return (
     <div className='QuizAppView container'>
+      <h1 className='header'>QUIZ APP</h1>
       {/* <video src={video} width='300' height='500' poster={screenshot} autoPlay>Your browser can't play the video</video> */}
     </div>
   )
