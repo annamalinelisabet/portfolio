@@ -38,7 +38,7 @@ const HomeView = () => {
         </div>
         <Link to='/resume'>
           <div className='skills-text-wrapper' data-aos='fade-up' data-aos-duration='1500'>
-            <p className='skills-text'>Explore my tech experiences</p>
+            <p className='skills-text'>My tech experience</p>
             <BsArrowRight className='arrow'/>
           </div>
         </Link>
@@ -51,7 +51,7 @@ const HomeView = () => {
         </div>
         <div className='about-text-box'>
           <h2 className='about-title'>THAT'S ME</h2>
-          <p className='about-text'>Initially captivated by a fascination for design, I now find that the combination of design, coding, and problem-solving is what makes frontend development so incredibly enjoyable for me. I have a genuine passion for creating modern, user-friendly interfaces that deliver exceptional user experiences.</p>
+          <p className='about-text'>Initially captivated by a fascination for design, I now find that the combination of design, coding, and problem-solving is what makes frontend development so incredibly enjoyable for me. As a web developer I have a genuine passion for creating pixel-perfect, responsive interfaces that deliver exceptional user experiences.</p>
           <Link to='/contact'><button className='btn about-btn'>LET'S TALK</button></Link>
         </div>
       </div>
