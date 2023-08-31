@@ -1,0 +1,24 @@
+.NotFound {
+    padding-block: 2rem;
+}
+
+.NotFound h1, .NotFound h3 {
+    font-family: var(--header-font);
+}
+
+.NotFound .btn-404 {
+    border: 3px solid var(--primary-blue);
+    color: #fff;
+    width: 220px;
+    transition: .5s ease;
+    margin-top: 1.5rem;
+}
+
+.NotFound .btn-404:hover {
+    background-color: var(--primary-blue);
+    color: var(--background-clr);
+}
+
+.NotFound .btn-404:active {
+    opacity: 70%;
+}

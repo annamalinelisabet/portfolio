@@ -166,7 +166,6 @@
 .HomeView .about-btn:hover {
     background-color: var(--primary-blue);
     color: var(--background-clr);
-
 }
 
 .HomeView .about-btn:active {
