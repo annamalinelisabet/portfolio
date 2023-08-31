@@ -1,4 +1,5 @@
 import './NotFound.css'
+import { Link } from 'react-router-dom'
 
 const NotFound = () => {
   return (
@@ -8,7 +9,7 @@ const NotFound = () => {
             <h3>Oooops...</h3>
             <p>Something didn't go according to plan</p>
         </div>
-        <button className='btn btn-404'>GO HOME</button>
+        <Link to='/'><button className='btn btn-404'>GO HOME</button></Link>
     </div>
   )
 }

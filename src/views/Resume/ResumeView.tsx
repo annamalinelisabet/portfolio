@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './ResumeView.css'
 import 'animate.css'
 import { Link } from 'react-router-dom'
-import { HiMiniArrowUpRight } from 'react-icons/hi2'
+import { MdOpenInNew } from 'react-icons/md'
 import illustration from '../../assets/illustration-laptop.jpg'
 import technologies from '../../data/technologies.json'
 import TechBadge from '../../components/TechBadge/TechBadge'
@@ -29,7 +29,7 @@ useEffect(() => {
         <div className='box'>
           <div>
             <p className='subtitle'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
-            <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><HiMiniArrowUpRight /></a>
+            <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><MdOpenInNew /></a>
             <p className='desc'>From the very start of my education, it was hands-on coding, working on a wide range of projects, from Vue.js to-do lists to Node.js REST APIs. Engaging in collaborative group projects, such as developing an e-commerce platform, gave me a solid foundation in both front- and backend development, as well as essential skills in agile methodologies and UX/UI design. This education has prepared me thoroughly and ignited my enthusiasm to pursue a career in frontend development.</p>
           </div>
           <div className='badges'>
@@ -39,7 +39,7 @@ useEffect(() => {
         <div className='box'>
           <div>
             <p className='subtitle'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
-            <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><HiMiniArrowUpRight /></a>
+            <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><MdOpenInNew /></a>
             <p className='desc'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field. I seamlessly integrated with the team and was able to contribute successfully to various projects.</p>
           </div>
           <div className='badges'>
