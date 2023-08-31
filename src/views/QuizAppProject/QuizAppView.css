@@ -27,8 +27,18 @@
     color: var(--background-clr);
     width: 220px;
     margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
 }
 
 .QuizAppView .btn-code:hover {
     opacity: 85%;
+}
+
+.QuizAppView .arrow-wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
 }
