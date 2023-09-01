@@ -1,4 +1,5 @@
 import './MobileMenu.css'
+import 'animate.css'
 import { NavLink } from 'react-router-dom'
 import { MdClose } from 'react-icons/md'
 
@@ -11,7 +12,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ setShowMobileMenu }) => {
         <div className='MobileMenu' onClick={() => setShowMobileMenu(false)}>
             <div className='container'>
                 <MdClose className='close' />
-                <ul className='mobile-links'>
+                <ul className='mobile-links animate__animated animate__zoomIn'>
                     <li><NavLink className='mobile-link' to='/'>home</NavLink></li>
                     <li><NavLink className='mobile-link' to='/portfolio'>portfolio</NavLink></li>
                     <li><NavLink className='mobile-link' to='/resume'>resume</NavLink></li>

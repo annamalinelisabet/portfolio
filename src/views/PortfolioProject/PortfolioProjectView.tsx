@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import './PortfolioProjectView.css'
+import 'animate.css'
 
 const PortfolioProjectView = () => {
 
@@ -8,7 +9,7 @@ const PortfolioProjectView = () => {
   }, [])
 
   return (
-    <div className='PortfolioProject container'>
+    <div className='PortfolioProject container animate__animated animate__fadeInLeft'>
       <h1 className='header'>PORTFOLIO</h1>
     </div>
   )

@@ -1,5 +1,4 @@
 import './TopSection.css'
-import 'animate.css'
 
 interface TopSectionProps {
     header: string;
@@ -10,7 +9,7 @@ interface TopSectionProps {
 
 const TopSection: React.FC<TopSectionProps> = ({ header, src, alt, text }) => {
   return (
-    <div className='TopSection animate__animated animate__fadeIn animate__slow'>
+    <div className='TopSection'>
         <h1 className='header'>{header}</h1>
         <div className='illustration-box'>
             <img src={src} alt={alt} />

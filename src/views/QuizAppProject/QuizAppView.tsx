@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import './QuizAppView.css'
+import 'animate.css'
 import video from '../../assets/quiz-app.mp4'
 import screenshot from '../../assets/app-screenshot.jpg'
 import { BsArrowLeft } from 'react-icons/bs'
@@ -16,7 +17,7 @@ const QuizAppView = () => {
 
   return (
     //! Det här kommer kunna användas på alla projektsidor, gör komponent!!
-    <div className='QuizAppView container'>
+    <div className='QuizAppView container animate__animated animate__fadeInLeft'>
       <h1 className='header'>QUIZ APP</h1>
       <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora, provident deleniti magni eveniet ad natus sapiente, quas vel, totam amet exercitationem mollitia deserunt saepe.</p>
       <p className='text2'>CODE&nbsp; - &nbsp;DESIGN</p>
