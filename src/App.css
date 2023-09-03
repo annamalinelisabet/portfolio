@@ -49,4 +49,15 @@ a {
   font-weight: bold;
 }
 
-/* ! GÖR HJÄLPKLASSER FÖR ATT DRA NER PÅ KOD???? olika textklasser också?? */
+.text {
+  line-height: 1.4rem;
+}
+
+.text-s {
+  font-size: .9rem;
+}
+
+.text-xs {
+  font-size: .8rem;
+  line-height: 1.2rem;
+}

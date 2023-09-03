@@ -25,10 +25,6 @@
     text-transform: uppercase;
 }
 
-.ProjectCard .text {
-    font-size: .9rem;
-}
-
 @media (min-width: 768px) {
     .ProjectCard .arrow {
         position: absolute;

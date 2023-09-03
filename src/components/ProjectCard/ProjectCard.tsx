@@ -18,8 +18,8 @@ interface ProjectCardProps {
             <h2 className='title'>{title}</h2>
           </div>
           <div className='text-box'>
-            { code ? <p className='text'>code</p> : null }
-            { design ? <p className='text'>&nbsp; - &nbsp;design</p> : null }
+            { code ? <p className='text-s'>code</p> : null }
+            { design ? <p className='text-s'>&nbsp; - &nbsp;design</p> : null }
           </div>
         </div>
       </Link>

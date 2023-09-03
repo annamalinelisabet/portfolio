@@ -19,10 +19,6 @@
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.ResumeView .subtitle {
-    font-size: .8rem;
-}
-
 .ResumeView .title {
     color: var(--orange);
     font-family: var(--header-font);
@@ -30,15 +26,11 @@
     display: inline-flex;
     align-items: center;
     gap: .3rem;
-}
-
-.ResumeView .desc {
-    font-size: .8rem;
-    line-height: 1.2rem;
-    margin: .5rem 0 1.5rem 0;
+    margin-bottom: .5rem;
 }
 
 .ResumeView .badges {
+    margin-top: 1.5rem;
     display: flex;
     gap: .3rem;
     flex-wrap: wrap;
@@ -46,10 +38,6 @@
 
 .ResumeView .link {
     text-decoration: underline;
-}
-
-.ResumeView .end {
-    font-size: .8rem;
 }
 
 @media (min-width: 768px) {

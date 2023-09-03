@@ -28,9 +28,9 @@ useEffect(() => {
       <div className='wrapper'>
         <div className='box'>
           <div>
-            <p className='subtitle'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
+            <p className='text-xs'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
             <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><MdOpenInNew /></a>
-            <p className='desc'>From the very start of my education, it was hands-on coding, working on a wide range of projects, from Vue.js to-do lists to Node.js REST APIs. Engaging in collaborative group projects, such as developing an e-commerce platform, gave me a solid foundation in both front- and backend development, as well as essential skills in agile methodologies and UX/UI design. This education has prepared me thoroughly and ignited my enthusiasm to pursue a career in frontend development.</p>
+            <p className='text-xs'>From the very start of my education, it was hands-on coding, working on a wide range of projects, from Vue.js to-do lists to Node.js REST APIs. Engaging in collaborative group projects, such as developing an e-commerce platform, gave me a solid foundation in both front- and backend development, as well as essential skills in agile methodologies and UX/UI design. This education has prepared me thoroughly and ignited my enthusiasm to pursue a career in frontend development.</p>
           </div>
           <div className='badges'>
             { school.map(item => <TechBadge key={item.name} name={item.name} />) }
@@ -38,16 +38,16 @@ useEffect(() => {
         </div>
         <div className='box'>
           <div>
-            <p className='subtitle'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
+            <p className='text-xs'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
             <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><MdOpenInNew /></a>
-            <p className='desc'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field. I seamlessly integrated with the team and was able to contribute successfully to various projects.</p>
+            <p className='text-xs'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field. I seamlessly integrated with the team and was able to contribute successfully to various projects.</p>
           </div>
           <div className='badges'>
             { gastrogate.map(item => <TechBadge key={item.name} name={item.name} />) }
           </div>
         </div>
       </div>
-      <p className='end'>If you're curious about what else I've been up to, feel free to <Link to='/contact' className='link'>contact me</Link>. I'd be glad to share my complete CV with you. As a teaser, I can reveal that it covers a variety of things such as dance, tourism and logistics.</p>
+      <p className='text-xs'>If you're curious about what else I've been up to, feel free to <Link to='/contact' className='link'>contact me</Link>. I'd be glad to share my complete CV with you. As a teaser, I can reveal that it covers a variety of things such as dance, tourism and logistics.</p>
     </div>
   )
 }

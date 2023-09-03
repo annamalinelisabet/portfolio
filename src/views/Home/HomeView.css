@@ -117,7 +117,7 @@
     padding-top: 1rem;
 }
 
-.HomeView p {
+.HomeView .skills-text {
     color: var(--secondary-blue);
 }
 
@@ -159,13 +159,8 @@
     font-family: var(--header-font);
 }
 
-.HomeView .about-text {
-    color: #fff;
-    margin-bottom: 1rem;
-    line-height: 1.3rem;
-}
-
 .HomeView .about-btn {
+    margin-top: 1rem;
     border: 3px solid var(--primary-blue);
     color: #fff;
     width: 100%;

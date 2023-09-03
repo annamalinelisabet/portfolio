@@ -26,9 +26,8 @@
     width: 70%;
 }
 
-.ContactView .text {
+.ContactView .text-xs {
     margin-block: 1rem 2rem;
-    font-size: .8rem;
 }
 
 .ContactView .email {

@@ -8,10 +8,6 @@
     font-size: clamp(2rem, 12vw, 8rem); 
 }
 
-.ProjectInfo .text {
-    font-size: .9rem;
-}
-
 .ProjectInfo .category {
     border-bottom: 1px solid #fff;
     padding-block: 1.5rem;

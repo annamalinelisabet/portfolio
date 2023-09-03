@@ -6,7 +6,6 @@
 
 .TechBadge .name {
     font-size: .7rem;
-    font-weight: '';
     color: var(--orange);
     user-select: none;
 }

@@ -14,7 +14,7 @@ const QuizAppView = () => {
 
   return (
     <div className='QuizAppView container animate__animated animate__fadeInLeft'>
-      <ProjectInfo title='QUIZ APP' text='Hejhejhej' code={true} design={true} link='https://github.com/annamalinelisabet/quiz-app' />
+      <ProjectInfo title='QUIZ APP' text='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, quis. Sint sunt dignissimos ab minima, molestiae deserunt blanditiis autem. Numquam voluptatem consequatur illum pariatur, inventore dolore nemo sit itaque porro quam deleniti recusandae ut voluptas quis corporis similique nobis voluptatibus?' code={true} design={true} link='https://github.com/annamalinelisabet/quiz-app' />
       <video src={video} width='220' height='480' poster={screenshot} controls>Your browser can't play the video</video>
       <BackButton />
     </div>
