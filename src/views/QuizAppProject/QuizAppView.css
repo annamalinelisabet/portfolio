@@ -1,44 +1,5 @@
 .QuizAppView {
     padding-block: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
-.QuizAppView .header {
-    font-family: var(--header-font);
-    font-size: clamp(2rem, 12vw, 8rem); 
-}
 
-.QuizAppView video {
-    margin-block: 2rem;
-}
-
-.QuizAppView .text {
-    font-size: .9rem;
-}
-
-.QuizAppView .text2 {
-    border-bottom: 1px solid #fff;
-    padding-block: 1.5rem;
-}
-
-.QuizAppView .btn-code {
-    background-color: #fff;
-    color: var(--background-clr);
-    width: 220px;
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    gap: .5rem;
-}
-
-.QuizAppView .btn-code:hover {
-    opacity: 85%;
-}
-
-.QuizAppView .arrow-wrapper {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    cursor: pointer;
-}

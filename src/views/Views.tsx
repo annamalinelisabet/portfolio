@@ -15,8 +15,8 @@ const Views = () => {
             <Route path='/contact' element={ <ContactView /> } />
             <Route path='/resume' element={ <ResumeView /> } />
             <Route path='/portfolio' element={ <PortfolioView /> } />
-            <Route path='/portfolio/1' element={ <QuizAppView /> } />
-            <Route path='/portfolio/2' element={ <PortfolioProjectView /> } />
+            <Route path='/portfolio/1' element={ <PortfolioProjectView /> } />
+            <Route path='/portfolio/2' element={ <QuizAppView /> } />
             <Route path='*' element={ <NotFound /> } />
         </Routes>
     </div>

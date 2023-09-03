@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "title": "quiz app",
+        "title": "portfolio",
         "code": true,
         "design": true
     },
     {
         "id": 2,
-        "title": "portfolio",
+        "title": "quiz app",
         "code": true,
         "design": true
     }

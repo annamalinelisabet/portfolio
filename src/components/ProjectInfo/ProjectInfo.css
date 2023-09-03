@@ -1,0 +1,32 @@
+.ProjectInfo {
+    margin-bottom: 2rem;
+}
+
+.ProjectInfo .header {
+    font-family: var(--header-font);
+    text-transform: uppercase;
+    font-size: clamp(2rem, 12vw, 8rem); 
+}
+
+.ProjectInfo .text {
+    font-size: .9rem;
+}
+
+.ProjectInfo .category {
+    border-bottom: 1px solid #fff;
+    padding-block: 1.5rem;
+}
+
+.ProjectInfo .btn-code {
+    background-color: #fff;
+    color: var(--background-clr);
+    width: 220px;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.ProjectInfo .btn-code:hover {
+    opacity: 85%;
+}

@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import './PortfolioProjectView.css'
 import 'animate.css'
+import ProjectInfo from '../../components/ProjectInfo/ProjectInfo'
+import BackButton from '../../components/BackButton/BackButton'
 
 const PortfolioProjectView = () => {
 
@@ -10,7 +12,8 @@ const PortfolioProjectView = () => {
 
   return (
     <div className='PortfolioProject container animate__animated animate__fadeInLeft'>
-      <h1 className='header'>PORTFOLIO</h1>
+      <ProjectInfo title='Portfolio' text='hallååå' code={true} design={true} link='https://github.com/annamalinelisabet/portfolio' />
+      <BackButton />
     </div>
   )
 }

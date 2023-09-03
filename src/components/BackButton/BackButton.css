@@ -1,0 +1,7 @@
+.BackButton.arrow-wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
