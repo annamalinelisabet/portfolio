@@ -12,7 +12,7 @@ const ContactView = () => {
   }, [])
 
   return (
-    <div className='ContactView container animate__animated animate__fadeIn animate__slower'>
+    <div className='ContactView container pb-2 animate__animated animate__fadeIn animate__slower'>
       <h1>SAY HI</h1>
       <div className='wrapper'>
         <div className='illustration-box'>
@@ -23,16 +23,16 @@ const ContactView = () => {
       
       <p className='text-xs'>Don't hesitate to get in touch with me – I've made it incredibly simple! Just drop a message via the contact form provided below. But if that's not your style, feel free to shoot me an email at <a href='mailto:annamalinelisabet@gmail.com' className='email'>annamalinelisabet@gmail.com</a> or connect with me on <span className='linkedin'>LinkedIn.<a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer'><AiFillLinkedin className='li-icon'/></a><HiArrowLongDown className='arrow'/></span></p>
 
-      <form>
-        <div className='input-control'>
+      <form className='flex-column'>
+        <div className='input-control flex-column'>
           <label htmlFor='name'>Your name</label>
           <input type='text' name='name' />
         </div>
-        <div className='input-control'>
+        <div className='input-control flex-column'>
           <label htmlFor='email'>Your email</label>
           <input type='email' name='email' />
         </div>
-        <div className='input-control'>
+        <div className='input-control flex-column'>
           <label htmlFor='message'>Message</label>
           <textarea name='message' className='message'></textarea>
         </div>

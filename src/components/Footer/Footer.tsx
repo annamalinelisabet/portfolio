@@ -4,15 +4,15 @@ import { BiCopyright } from 'react-icons/bi'
 
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className='Footer pb-2'>
       <div className='container'>
         <div className='footer-text-box'>
-          <div className='copy-wrapper'>
-            <p className='text'>All rights reserved by me</p>
+          <div className='copy-wrapper flex-align-center'>
+            <p className='footer-text'>All rights reserved by me</p>
             <BiCopyright />
-            <p className='text'>2023</p>
+            <p className='footer-text'>2023</p>
           </div>
-          <p className='text'>Illustrations made by <a href='https://www.instagram.com/morkbjornart/' className='link' target='_blank' rel='noopener noreferrer'>Morkbjorn</a></p>
+          <p className='footer-text'>Illustrations made by <a href='https://www.instagram.com/morkbjornart/' className='link' target='_blank' rel='noopener noreferrer'>Morkbjorn</a></p>
         </div>
         <div className='footer-icons'>
           <a href='mailto:annamalinelisabet@gmail.com'><AiOutlineMail className='icon' /></a>

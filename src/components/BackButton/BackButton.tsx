@@ -7,7 +7,7 @@ const BackButton = () => {
     const navigate = useNavigate()
 
     return (
-        <div className='BackButton arrow-wrapper' onClick={() => navigate(-1)}>
+        <div className='BackButton arrow-wrapper flex-align-center' onClick={() => navigate(-1)}>
             <BsArrowLeft />
             <p>Back</p>
         </div>

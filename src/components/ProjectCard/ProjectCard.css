@@ -1,9 +1,8 @@
 .ProjectCard {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-top: 2px solid #fff;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -12,8 +11,6 @@
 }
 
 .ProjectCard .title-arrow {
-    display: flex;
-    align-items: center;
     gap: 1rem;
 }
 

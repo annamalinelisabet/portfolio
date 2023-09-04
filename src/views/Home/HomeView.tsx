@@ -12,12 +12,12 @@ const HomeView = () => {
   return (
     <div className='HomeView'>
 
-      <div className='hero-section container'>
-        <div className='text-box'>
+      <div className='hero-section container flex-column'>
+        <div className='text-box flex-column-align-center'>
           <h1 className='header animate__animated animate__fadeInLeft animate__slow'>HEY THERE, I'm Malin</h1>
           <h2 className='subheader animate__animated animate__fadeInLeft animate__slow'>a <span className='span-text'>frontend developer</span></h2>
           <Link to='/portfolio'>
-            <div className='circle-btn animate__animated animate__fadeInRight animate__slow'>
+            <div className='circle-btn flex-column-align-center animate__animated animate__fadeInRight animate__slow'>
               <p className='circle-text'>MY</p>
               <p className='circle-text'>WORK</p>
             </div>
@@ -37,7 +37,7 @@ const HomeView = () => {
           <FaVuejs className='skill'/>
         </div>
         <Link to='/resume'>
-          <div className='skills-text-wrapper' data-aos='fade-up' data-aos-duration='1500'>
+          <div className='skills-text-wrapper flex-align-center' data-aos='fade-up' data-aos-duration='1500'>
             <p className='skills-text'>My tech experience</p>
             <BsArrowRight className='arrow'/>
           </div>

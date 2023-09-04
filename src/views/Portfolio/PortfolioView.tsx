@@ -19,7 +19,7 @@ const PortfolioView = () => {
   })
 
   return (
-    <div className='PortfolioView container animate__animated animate__fadeIn animate__slower'>
+    <div className='PortfolioView container pb-2 animate__animated animate__fadeIn animate__slower'>
       <TopSection header='hobby projects' src={illustration} alt='Illustration of me' text={`My coding philosophy revolves around clean, well-structured code that seamlessly combines design and function. While React is my go-to playground, I'm not bound by any framework - I'm always excited to explore new technologies! This portfolio is a showcase of some of my projects. Enjoy!`}/>
       <div className='wrapper'>
         { projects.map(project => <ProjectCard key={project.id} title={project.title} code={project.code} design={project.design} id={project.id}/> ) }

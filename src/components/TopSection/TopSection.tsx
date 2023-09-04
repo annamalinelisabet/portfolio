@@ -9,7 +9,7 @@ interface TopSectionProps {
 
 const TopSection: React.FC<TopSectionProps> = ({ header, src, alt, text }) => {
   return (
-    <div className='TopSection'>
+    <div className='TopSection flex-column'>
         <h1 className='header'>{header}</h1>
         <div className='illustration-box'>
             <img src={src} alt={alt} />

@@ -3,16 +3,11 @@
 
 .HomeView .hero-section {
     min-height: calc(100vh - 80px);
-    display: flex;
-    flex-direction: column;
     gap: 1rem;
 }
 
 .HomeView .text-box {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     flex-grow: 1;
 }
 
@@ -47,10 +42,7 @@
     background-color: #fff;
     height: 5.2rem;
     width: 5.2rem;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     outline-offset: 6px;
     border-radius: 50%;
     cursor: pointer;
@@ -110,8 +102,6 @@
 }
 
 .HomeView .skills-text-wrapper {
-    display: flex;
-    align-items: center;
     justify-content: center;
     gap: .5rem;
     padding-top: 1rem;
@@ -147,12 +137,6 @@
     z-index: -1;
     background-color: #fff;
     transform:translateX(4%) translateY(2%) rotate(2deg);
-}
-
-.HomeView .about-text-box {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
 }
 
 .HomeView .about-title {

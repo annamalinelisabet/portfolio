@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='Navbar'>
-      <div className='container'>
+      <div className='container flex-align-center'>
         <Link to='/'><BsEyeglasses className='logo'/></Link>
         <BiMenu className='bars' onClick={() => setShowMobileMenu(true)} />
         <ul className='nav-links'>

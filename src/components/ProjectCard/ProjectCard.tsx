@@ -12,8 +12,8 @@ interface ProjectCardProps {
   const ProjectCard: React.FC<ProjectCardProps> = ({ title, code, design, id }) => {
     return (
       <Link to={'/portfolio/' + id}>
-        <div className='ProjectCard'>
-          <div className='title-arrow'>
+        <div className='ProjectCard flex-align-center'>
+          <div className='title-arrow flex-align-center'>
             <BsArrowRight className='arrow'/>
             <h2 className='title'>{title}</h2>
           </div>

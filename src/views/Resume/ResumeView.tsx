@@ -25,8 +25,8 @@ useEffect(() => {
   return (
     <div className='ResumeView container animate__animated animate__fadeIn animate__slower'>
       <TopSection header='work & education' src={illustration} alt='Illustration of me infront of a computer' text={`Here you'll find my past experiences on this developer journey. Perhaps your team will be the next exciting chapter?`}/>
-      <div className='wrapper'>
-        <div className='box'>
+      <div className='wrapper flex-column'>
+        <div className='box flex-column'>
           <div>
             <p className='text-xs'>FRONTEND DEVELOPER &nbsp; | &nbsp; 2021 - 2023</p>
             <a href='https://ecutbildning.se/utbildningar/frontendutvecklare/' className='title' target='_blank' rel='noopener noreferrer'><h4>EC UTBILDNING</h4><MdOpenInNew /></a>
@@ -36,7 +36,7 @@ useEffect(() => {
             { school.map(item => <TechBadge key={item.name} name={item.name} />) }
           </div>
         </div>
-        <div className='box'>
+        <div className='box flex-column'>
           <div>
             <p className='text-xs'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
             <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><MdOpenInNew /></a>

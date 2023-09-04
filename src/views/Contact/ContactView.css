@@ -1,7 +1,3 @@
-.ContactView {
-    padding-block: 2rem;
-}
-
 .ContactView h1 {
     font-family: var(--header-font);
     font-size: 2.5rem;
@@ -55,15 +51,11 @@
 
 /* ------- FORM ------ */
 .ContactView form {
-    display: flex;
-    flex-direction: column;
     gap: 1.4rem;
     width: min(100%, 625px);
     padding-block: 4rem;
 }
 .ContactView .input-control {
-    display: flex;
-    flex-direction: column;
     gap: .2rem;
 }
 
