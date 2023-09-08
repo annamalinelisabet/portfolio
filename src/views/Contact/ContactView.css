@@ -89,6 +89,7 @@
 .ContactView .success {
     color: var(--orange);
     font-family: var(--header-font);
+    margin-top: 4rem;
 }
 
 @media (min-width: 700px) {
