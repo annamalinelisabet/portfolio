@@ -81,6 +81,10 @@
     color: #fff;
 }
 
+.ContactView .error {
+    color: red;
+}
+
 @media (min-width: 700px) {
     .ContactView h1 {
         font-size: 4rem;
