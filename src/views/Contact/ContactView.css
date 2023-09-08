@@ -83,6 +83,12 @@
 
 .ContactView .error {
     color: red;
+    text-transform: uppercase;
+}
+
+.ContactView .success {
+    color: var(--orange);
+    font-family: var(--header-font);
 }
 
 @media (min-width: 700px) {
