@@ -97,7 +97,11 @@
 .ContactView .success {
     color: var(--orange);
     font-family: var(--header-font);
-    margin-top: 4rem;
+}
+
+.ContactView .success h3 {
+    color: var(--orange);
+    font-family: var(--header-font);
 }
 
 @media (min-width: 700px) {

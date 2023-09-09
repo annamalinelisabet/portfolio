@@ -15,7 +15,10 @@ const Form = () => {
   })
 
   return state.succeeded ? (
-    <h3 className='success'>Message sent! I'll get back to you before you know it.</h3>
+    <div className='success'>
+      <h3>MESSAGE SENT</h3>
+      <p className='text'>I'll get back to you before you know it!</p>
+    </div>
   ) : (
     <form className='flex-column' onSubmit={handleSubmit}>
       <div className='input-control flex-column'>
