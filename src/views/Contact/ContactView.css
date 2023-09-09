@@ -81,6 +81,14 @@
     color: #fff;
 }
 
+.ContactView .btn-send:hover {
+    opacity: 85%;
+}
+
+.ContactView .btn-send:active {
+    opacity: 95%;
+}
+
 .ContactView .error {
     color: red;
     text-transform: uppercase;

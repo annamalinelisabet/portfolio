@@ -30,7 +30,7 @@ const Form = () => {
         <label htmlFor='message'>Message</label>
         <textarea id='message' name='message' className='message' required></textarea>
       </div>
-      <button className='btn btn-send' disabled={state.submitting}>SEND</button>
+      <button className='btn btn-send' disabled={state.submitting}>{state.submitting ? 'Sending...' : 'SEND'}</button>
       { state.succeeded ? <p className='text'>Message sent!</p> : null }
       <ValidationError className='error' errors={state.errors}/>
     </form>

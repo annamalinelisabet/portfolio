@@ -25,3 +25,7 @@
 .ProjectInfo .btn-code:hover {
     opacity: 85%;
 }
+
+.ProjectInfo .btn-code:active {
+    opacity: 95%;
+}
