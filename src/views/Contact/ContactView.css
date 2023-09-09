@@ -95,8 +95,7 @@
 }
 
 .ContactView .success {
-    color: var(--orange);
-    font-family: var(--header-font);
+    margin-top: 4rem;
 }
 
 .ContactView .success h3 {
