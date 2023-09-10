@@ -24,7 +24,7 @@ const HomeView = () => {
           </Link>
         </div>
         <div className='img-box animate__animated animate__fadeInUp animate__slow'>
-          <img src={illustration} alt="Illustration" />
+          <img src={illustration} alt='Illustration' />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const HomeView = () => {
         </Link>
       </div>
 
-      <div className='about-section container' data-aos='fade-up' data-aos-duration='1500'>
+      <div className='about-section container' data-aos='fade-up' data-aos-duration='1500' data-aos-offset='200'>
         <div className='about-img-box'>
           <img src={photo} alt='Photo of me' />
           <div className='about-img-bg'></div>
