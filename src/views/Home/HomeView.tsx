@@ -51,7 +51,7 @@ const HomeView = () => {
         </div>
         <div className='about-text-box'>
           <h2 className='about-title'>THAT'S ME</h2>
-          <p className='text'>Initially captivated by a fascination for design, I now find that the combination of design, coding, and problem-solving is what makes frontend development so incredibly enjoyable for me. As a web developer I have a genuine passion for creating pixel-perfect, responsive interfaces that deliver exceptional user experiences.</p>
+          <p className='text'>Initially drawn by a fascination for design, I now find that the combination of coding, problem-solving and design is what makes frontend development so incredibly enjoyable for me. As a web developer, I have a genuine passion for crafting pixel-perfect, responsive interfaces that deliver exceptional user experiences.</p>
           <Link to='/contact'><button className='btn about-btn'>LET'S TALK</button></Link>
         </div>
       </div>

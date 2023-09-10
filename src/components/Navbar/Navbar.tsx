@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
       <div className='container flex-align-center'>
-        <Link to='/'><BsEyeglasses className='logo'/></Link>
+        <Link to='/'><BsEyeglasses className='logo' aria-label='Glasses icon, used as link to home page'/></Link>
         <BiMenu className='bars' onClick={() => setShowMobileMenu(true)} />
         <ul className='nav-links'>
           <li><NavLink className='nav-link' to='/'>home</NavLink></li>

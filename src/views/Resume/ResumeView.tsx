@@ -40,7 +40,7 @@ useEffect(() => {
           <div>
             <p className='text-xs'>SOFTWARE ENGINEER INTERN &nbsp; | &nbsp; nov 2022 - apr 2023</p>
             <a href='https://www.chef.gastrogate.com' className='title' target='_blank' rel='noopener noreferrer'><h4>GASTROGATE</h4><MdOpenInNew /></a>
-            <p className='text-xs'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field. I seamlessly integrated with the team and was able to contribute successfully to various projects.</p>
+            <p className='text-xs'>During my enriching five-month internship, I had the privilege to work closely with a team of experienced developers. I seamlessly integrated with them and was able to contribute successfully to various projects. This opportunity not only deepened my understanding of frontend development and agile teamwork but also confirmed my strong passion for this field.</p>
           </div>
           <div className='badges'>
             { gastrogate.map(item => <TechBadge key={item.name} name={item.name} />) }
