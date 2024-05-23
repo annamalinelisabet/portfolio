@@ -41,7 +41,7 @@ const Form = () => {
 
 const ContactView = () => {
   const key = import.meta.env.VITE_RECAPTCHA_KEY
-  
+  console.log(key)
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
