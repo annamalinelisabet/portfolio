@@ -8,6 +8,8 @@ import { HiArrowLongDown } from 'react-icons/hi2'
 import { AiFillLinkedin } from 'react-icons/ai'
 
 const Form = () => {
+  // const key = process.env.KEY;
+
   const { executeRecaptcha } = useGoogleReCaptcha()
 
   const [state, handleSubmit] = useForm('xdorzwze', {
