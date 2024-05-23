@@ -8,8 +8,6 @@ import { HiArrowLongDown } from 'react-icons/hi2'
 import { AiFillLinkedin } from 'react-icons/ai'
 
 const Form = () => {
-  // const key = process.env.KEY;
-
   const { executeRecaptcha } = useGoogleReCaptcha()
 
   const [state, handleSubmit] = useForm('xdorzwze', {
@@ -42,6 +40,7 @@ const Form = () => {
 }
 
 const ContactView = () => {
+  const key = import.meta.env.VITE_RECAPTCHA_KEY
   
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -59,7 +58,7 @@ const ContactView = () => {
       
       <p className='text-xs'>Don't hesitate to get in touch with me – I've made it incredibly simple! Just drop a message via the contact form provided below. But if that's not your style, feel free to shoot me an email at <a href='mailto:annamalinelisabet@gmail.com' className='email'>annamalinelisabet@gmail.com</a> or connect with me on <span className='linkedin'>LinkedIn.<a href='https://www.linkedin.com/in/anna-malin-elisabet-andersson' target='_blank' rel='noopener noreferrer'><AiFillLinkedin className='li-icon'/></a><HiArrowLongDown className='arrow'/></span></p>
       
-      <GoogleReCaptchaProvider reCaptchaKey='6LfTrg0oAAAAAA_CYhaFsW-Jr9UxxeUYTIeSGzU-'>
+      <GoogleReCaptchaProvider reCaptchaKey={key}>
         <Form />
       </GoogleReCaptchaProvider>
     </div>
