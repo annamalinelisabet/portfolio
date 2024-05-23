@@ -24,7 +24,7 @@ const PortfolioView = () => {
       <div className='wrapper'>
         { projects.map(project => <ProjectCard key={project.id} title={project.title} code={project.code} design={project.design} id={project.id}/> ) }
       </div>
-      <p className='text-s'><span className='upcoming'>Upcoming project</span>&nbsp; - &nbsp;A website for my sister's arts and crafts. She's the one who created the cute illustrations you see on this site.</p>
+      <p className='text-s'><span className='upcoming'>Upcoming project</span>&nbsp; - &nbsp;A website for a solar energy company that I'm creating with my friend. From design to code, we're covering it all.</p>
     </div>
   )
 }
